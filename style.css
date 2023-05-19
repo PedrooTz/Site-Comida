@@ -41,8 +41,11 @@ p{
     text-align: right;
     bottom: 4em;
     margin-right: 170px;
-    margin-top: 20px;
+    margin-top: 100px;
+    text-align: right;
+    margin-bottom: 200px;
 }
+
 .logo{
     justify-content: space-between;
     margin-left: 70px;
@@ -56,6 +59,7 @@ p{
     gap: 24px;
 }
 .introducao{
+    display: flex;
     text-align: right;
     justify-content: space-between;
     bottom: 10em;
@@ -63,6 +67,8 @@ p{
     width: 500px;
     margin-left: 700px;
     margin-right: 80px;
+    margin-top: 300px;
+
 }
 footer{
     bottom: 0;
@@ -73,6 +79,6 @@ footer{
 
 }
 .lanche{
-    margin-top: 80px;
+    margin-top: 30px;
     margin-left: 50px;
 }
