@@ -40,19 +40,18 @@ p{
     color: #FAFF00;
     text-align: right;
     bottom: 4em;
-    margin-right: 170px;
-    margin-top: 100px;
+    margin-right: 205px;
+    margin-top: 150px;
     text-align: right;
-    margin-bottom: 200px;
+
 }
 
 .logo{
     justify-content: space-between;
-    margin-left: 70px;
+    margin-left: 40px;
     margin-top: 20px;
-    width: 50px;
-    height: 50px;
-    size: 50px;
+    width: 80px;
+    height: 70px;
 }
 .info{
     display: flex;
@@ -62,12 +61,14 @@ p{
     display: flex;
     text-align: right;
     justify-content: space-between;
-    bottom: 10em;
+    bottom: 14em;
     position: fixed;
     width: 500px;
     margin-left: 700px;
     margin-right: 80px;
-    margin-top: 300px;
+    margin-top: 500px;
+    font-weight:300px;
+    padding: 0px 32px;
 
 }
 footer{
@@ -76,9 +77,12 @@ footer{
     width: 100%;
     text-align: center;
     color: whitesmoke;
+    align-items: center;
 
 }
 .lanche{
-    margin-top: 30px;
-    margin-left: 50px;
+    margin-top: -60px;
+    margin-bottom: 200px;
+    margin-left: 90px;
+
 }
