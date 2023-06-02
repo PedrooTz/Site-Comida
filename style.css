@@ -9,7 +9,6 @@ body{
     background-image: url(./img/restaurante.jfif);
     background-position: center;
     background-size: cover;
-    border: solid 2px;
     background-repeat: no-repeat;
 }
 main{
@@ -85,4 +84,37 @@ footer{
     margin-bottom: 200px;
     margin-left: 90px;
 
+}
+@media(max-width:1024px){
+    body{
+    width: 100%;
+    }
+    header{
+        width: 100%;
+        display:flex;
+        margin-left: 30px;
+    }
+    .info{
+        width: 100%;
+        display: flex;
+        margin-left: 30px;
+        align-items: center;
+    }
+    main{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 50px;    
+    }
+    .titulomc{
+         margin-right: 100px;
+         margin-top: 400px;
+    }
+    .lanche{
+        margin-left: 70px;
+    }
+    .introducao{
+        margin-left: 300px;
+        margin-right: 100px;
+        margin-bottom: 200px;
+    }
 }
