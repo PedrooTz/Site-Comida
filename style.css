@@ -13,8 +13,6 @@ body{
 }
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 2fr;
 }
 .fundo{
     height: 100vh;
@@ -27,7 +25,7 @@ header{
     align-items: center; 
     justify-content: space-between;
     text-align: right;
-    margin-right: 30px;
+    margin-right: 90px;
 }
 p{
     color: whitesmoke;
@@ -38,10 +36,9 @@ p{
 .titulomc{
     color: #FAFF00;
     text-align: right;
-    bottom: 4em;
-    margin-right: 205px;
-    margin-top: 150px;
-    text-align: right;
+    margin-right: 230px;
+    margin-left: 400px;
+    margin-top: 125px;
 
 }
 
@@ -63,10 +60,10 @@ p{
     bottom: 14em;
     position: fixed;
     width: 500px;
-    margin-left: 700px;
-    margin-right: 80px;
-    margin-top: 500px;
-    font-weight:300px;
+    margin-left: 652px;
+    margin-right: 32px;
+    margin-top: 450px;
+    font-weight: 400px;
     padding: 0px 32px;
 
 }
@@ -80,41 +77,70 @@ footer{
 
 }
 .lanche{
-    margin-top: -60px;
+    margin-top: -48px;
     margin-bottom: 200px;
     margin-left: 90px;
 
 }
-@media(max-width:1024px){
+  /* responsividade do Ipad Mini */
+@media(max-width: 1024px){
     body{
-    width: 100%;
+    min-width:768px;
+    max-width: 1024px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+
     }
     header{
         width: 100%;
-        display:flex;
-        margin-left: 30px;
+        display: flex;
+        margin-left: 20px;
+        justify-content: space-between;
     }
     .info{
         width: 100%;
         display: flex;
-        margin-left: 30px;
+        margin-left: 100px;
+        margin-top: 30px;
         align-items: center;
     }
     main{
         width: 100%;
-        margin-top: 10px;
+        margin-top: 40px;
         margin-bottom: 50px;    
     }
     .titulomc{
-         margin-right: 100px;
-         margin-top: 400px;
+         margin-right: 118px;
+         margin-top: 418px;
     }
     .lanche{
-        margin-left: 70px;
+        margin-left: 30px;
+        
+    }
+    .logo{
+        margin-left: 12px;
     }
     .introducao{
-        margin-left: 300px;
+        margin-left: 280px;
         margin-right: 100px;
         margin-bottom: 200px;
     }
+    footer{
+        backface-visibility: hidden;
+        background-position: 10%;
+    }
+}
+    /* responsividade Iphone SE */
+@media(iphone){
+    body{
+    background-size: cover;
+    background-position: center;
+    }
+    header{
+        
+    }
+   
+
 }
