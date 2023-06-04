@@ -90,6 +90,10 @@ footer{
 }
   /* responsividade do Ipad Mini */
 @media(max-width: 1024px){
+    html{
+        background-size: cover;
+        width: 100%;
+    }
     body{
     min-width:768px;
     max-width: 1024px;
@@ -105,28 +109,33 @@ footer{
         display: flex;
         margin-left: 10px;
         justify-content: space-between;
+        max-width: 370px;
     }
     .info{
         display: grid;
-        grid-template-columns: 2fr 2fr;
-        margin-right: 64px;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 86px;
         margin-left: 200px;
         margin-top: 64px;
-        align-items: center;
+    
+    }
+    .logo{
+        margin-right: 80px;
+        justify-content: space-between;
+        align-items: flex-start;
     }
     main{
-        width: 100%;
-        margin-top: 40px;
-        margin-bottom: 50px;    
+        width: 100%;    
     }
     .titulomc{
          margin-right: 126px;
-         margin-left: 50px;
-         margin-top: 300px;
+         margin-left: 64px;
+         margin-top: 244px;
          font-size: larger;
+         text-transform: uppercase;
     }
     .lanche{
-        margin-left: 20px;
+        margin-left: 10px;
         width: 200px;
         
     }
@@ -147,13 +156,54 @@ footer{
     }
 }
     /* responsividade Iphone SE */
-@media(iphone){
+@media(max-width: 375px){
+    html{
+        width: 168%; 
+        height: 168%;  
+        background-size: cover; 
+    }
     body{
-    background-size: cover;
-    background-position: center;
+        max-width: 667px;
+        min-width: 375px;
+        background-size: cover;
+        overflow: hidden;
+        display: grid;
+        margin-right: 132px;
+        justify-content: space-between;
     }
     header{
-        
+        justify-content: space-between;
+        justify-items: center;
+        max-width: 370px;
+        margin-right: 100px;
+    }
+    main{
+        background-size: cover;
+    }
+    .lanche{
+        margin-left: -10px;
+        margin-top: -86px;
+    }
+    .titulomc{
+        margin-top: 200px;
+        margin-left: 350px;
+        gap: 6px;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+    }
+    .info{
+        font-size: medium;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 90px;
+    }
+    .introducao{
+        margin-top: 50px;
+        margin-bottom: 250px;
+        margin-right: 200px;
+        margin-left: 180px;
+        padding: 0px 64px;
+        gap: 24px;
     }
    
 
