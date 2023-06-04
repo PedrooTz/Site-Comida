@@ -36,10 +36,11 @@ p{
 .titulomc{
     color: #FAFF00;
     text-align: right;
-    margin-right: 230px;
-    margin-left: 400px;
-    margin-top: 125px;
-
+    margin-right: 314px;
+    margin-left: 380px;
+    margin-top: 140px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
 }
 
 .logo{
@@ -52,20 +53,23 @@ p{
 .info{
     display: flex;
     gap: 24px;
+    font-family: 'Roboto', sans-serif;
 }
 .introducao{
     display: flex;
     text-align: right;
     justify-content: space-between;
-    bottom: 14em;
+    bottom: 16em;
     position: fixed;
     width: 500px;
-    margin-left: 652px;
+    margin-left: 700px;
     margin-right: 32px;
-    margin-top: 450px;
+    margin-top: 164px;
     font-weight: 400px;
     padding: 0px 32px;
-
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    font-size: medium;
 }
 footer{
     bottom: 0;
@@ -74,12 +78,14 @@ footer{
     text-align: center;
     color: whitesmoke;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 
 }
 .lanche{
     margin-top: -48px;
     margin-bottom: 200px;
     margin-left: 90px;
+    height: auto;
 
 }
   /* responsividade do Ipad Mini */
@@ -91,19 +97,21 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
+    position: relative;
 
     }
     header{
         width: 100%;
         display: flex;
-        margin-left: 20px;
+        margin-left: 10px;
         justify-content: space-between;
     }
     .info{
-        width: 100%;
-        display: flex;
-        margin-left: 100px;
-        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        margin-right: 64px;
+        margin-left: 200px;
+        margin-top: 64px;
         align-items: center;
     }
     main{
@@ -112,20 +120,26 @@ footer{
         margin-bottom: 50px;    
     }
     .titulomc{
-         margin-right: 118px;
-         margin-top: 418px;
+         margin-right: 126px;
+         margin-left: 50px;
+         margin-top: 300px;
+         font-size: larger;
     }
     .lanche{
-        margin-left: 30px;
+        margin-left: 20px;
+        width: 200px;
         
     }
     .logo{
-        margin-left: 12px;
+        margin-left: 40px;
     }
     .introducao{
         margin-left: 280px;
         margin-right: 100px;
-        margin-bottom: 200px;
+        margin-bottom: 180px;
+        width: -70px;
+        font-size: large;  
+        padding: 0px 24px;
     }
     footer{
         backface-visibility: hidden;
