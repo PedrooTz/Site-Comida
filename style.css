@@ -38,7 +38,7 @@ p{
     text-align: right;
     margin-right: 314px;
     margin-left: 380px;
-    margin-top: 140px;
+    margin-top: 160px;
     font-family: 'Roboto', sans-serif;
     font-size: 90%;
 }
@@ -155,11 +155,13 @@ footer{
             background-size: cover; 
         }
         body{
+            max-width: 667px;
+            min-width: 375px;
             background-size: cover;
             overflow: hidden;
             display: grid;
             margin-right: 132px;
-            justify-content: space-between;
+           
         }
         header{
             justify-content: space-between;
@@ -169,15 +171,16 @@ footer{
         }
         main{
             background-size: cover;
+            justify-content: space-between;
         }
         .lanche{
             margin-left: -10px;
-            margin-top: -86px;
+            margin-top: -100px;
         }
         .titulomc{
-            margin-top: 400px;
-            margin-left: 330px;
-            margin-right: 900px;
+            margin-top: 380px;
+            margin-left: 320px;
+            margin-right: 380px;
             gap: 6px;
             text-align: left;
             text-transform: uppercase;
@@ -186,14 +189,14 @@ footer{
         .info{
             font-size: medium;
             font-family: 'Roboto', sans-serif;
-            margin-top: 100px;
             margin-left: 200px;
+            margin-top: 100px;
         }
         .introducao{
             margin-top: 50px;
             margin-bottom: 250px;
-            margin-right: 200px;
-            margin-left: 180px;
+            margin-right: 150px;
+            margin-left: 200px;
             padding: 0px 64px;
             gap: 24px;
         }
