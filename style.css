@@ -32,16 +32,15 @@ p{
     background-color: brown;
     align-items: center;
     text-align: center;
-
 }
 .titulomc{
     color: #FAFF00;
     text-align: right;
-    margin-right: 500px;
-    margin-left: 100px;
-    margin-top: 400px;
+    margin-right: 314px;
+    margin-left: 380px;
+    margin-top: 140px;
     font-family: 'Roboto', sans-serif;
-    font-size: x-large;
+    font-size: 90%;
 }
 
 .logo{
@@ -54,21 +53,23 @@ p{
 .info{
     display: flex;
     gap: 24px;
-    font-size: x-large;
     font-family: 'Roboto', sans-serif;
 }
 .introducao{
     display: flex;
+    text-align: right;
+    justify-content: space-between;
+    bottom: 16em;
     position: fixed;
     width: 500px;
-    gap: 48px;
-    margin-left:1650px;
-    margin-top: 10px;
-    font-size: x-large;
-    padding: 0px 310px
+    margin-left: 700px;
+    margin-right: 32px;
+    margin-top: 164px;
+    font-weight: 400px;
+    padding: 0px 32px;
     font-family: 'Roboto', sans-serif;
     text-align: right;
-
+    font-size: medium;
 }
 footer{
     bottom: 0;
@@ -80,132 +81,129 @@ footer{
     font-family: 'Roboto', sans-serif;
 
 }
-.lanche {
-    margin-left: 200px;
+.lanche{
+    margin-top: -48px;
+    margin-bottom: 200px;
+    margin-left: 90px;
     height: auto;
-
 
 }
   /* responsividade do Ipad Mini */
-@media(max-width: 1024px){
-    html{
-        background-size: cover;
-        width: 100%;
+  @media (max-width: 1024px) {
+  body {
+        grid-template-rows: 90px 1fr 96px;
     }
-    body{
-    min-width:768px;
-    max-width: 1024px;
-    margin-right: 150px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-items: center;
-    position: relative;
-
-    }
-    header{
-        width: 100%;
-        display: flex;
-        margin-left: 10px;
-        justify-content: space-between;
-        max-width: 400px;
-    }
-    .info{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-right: 60px;
-        margin-left: 150px;
-        margin-top: 64px;
-    
-    }
-    .logo{
-        margin-right: 80px;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    main{
-        width: 100%;    
+    header {
+        padding-left: 2em;
+    } 
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        margin-left: -70px;
+        font-size: xx-large;
     }
     .titulomc{
-         margin-right: 126px;
-         margin-left: 64px;
-         margin-top: 244px;
-         font-size: larger;
-         text-transform: uppercase;
-    }
-    .lanche {
-        margin-left: 30px;
-        
-    }
-    .logo{
-        margin-left: 40px;
+        width: 340px;
+        margin-top: 220px;
     }
     .introducao{
-        margin-left: 280px;
-        margin-right: 100px;
-        margin-top: 40px;
-        width: -70px;
-        font-size: large;  
-        padding: 0px 24px;
-    }
-    footer{
-        backface-visibility: hidden;
-        background-position: 20%;
-        
-    }
-}
-    /* responsividade Iphone SE */
-@media(max-height: 667px){
-    html{
-        width: 168%; 
-        height: 168%;  
-        background-size: cover; 
-    }
-    body{
-        max-width: 667px;
-        min-width: 375px;
-        background-size: cover;
-        overflow: hidden;
-        display: grid;
-        margin-right: 150px;
-        justify-content: space-between;
-    }
-    header{
-        justify-content: space-between;
-        justify-items: center;
-        margin-right: 100px;
-    }
-    main{
-        background-size: cover;
-
-    }
-    .lanche{
-        margin-left: -10px;
-        margin-top: -86px;
-    }
-    .titulomc{
-        margin-top: 200px;
-        margin-left: 350px;
-        gap: 6px;
-        text-align: left;
-        width: 240px;
-        text-transform: uppercase;
-        font-family: 'Roboto', sans-serif;
+        font-size: large;
+        margin-left: 260px;
+        margin-bottom: 250px;
+    } 
+    .logo{
+        width: 80px;
+        height: 80px;
+        margin-left: 20px;
     }
     .info{
         font-size: medium;
-        font-family: 'Roboto', sans-serif;
-        margin-left: 170px;
-    }
-    .introducao{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         margin-top: 50px;
-        margin-top: 480px;
-        margin-right: 200px;
-        margin-left: 210px;
-        padding: 0px 64px;
-        gap: 24px;
-        max-height: 667px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        place-self: center;
+    }
+
+    img[alt~=lanche] {
+        position: absolute;
+        left: 0;
+        width: 20em;
+        place-self: right right;
     }
    
 
+ 
+
 }
+
+    /* responsividade Iphone SE */
+    @media (max-width: 767px) {
+        html{
+            width: 168%; 
+            height: 168%;  
+            background-size: cover; 
+        }
+        body{
+            background-size: cover;
+            overflow: hidden;
+            display: grid;
+            margin-right: 132px;
+            justify-content: space-between;
+        }
+        header{
+            justify-content: space-between;
+            justify-items: center;
+            max-width: 370px;
+            margin-right: 100px;
+        }
+        main{
+            background-size: cover;
+        }
+        .lanche{
+            margin-left: -10px;
+            margin-top: -86px;
+        }
+        .titulomc{
+            margin-top: 400px;
+            margin-left: 330px;
+            margin-right: 900px;
+            gap: 6px;
+            text-align: left;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+        }
+        .info{
+            font-size: medium;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+        .introducao{
+            margin-top: 50px;
+            margin-bottom: 250px;
+            margin-right: 200px;
+            margin-left: 180px;
+            padding: 0px 64px;
+            gap: 24px;
+        }
+       
+    
+    }
+    
+    
+    
+    
+    
+    
+    
